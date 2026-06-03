@@ -1,3 +1,23 @@
 .planning/
 project_state.md
 project_state_presentation.md
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# RAG Database & Models
+backend/db/
+backend/data/processed/
+backend/models/
+
+# Node/React
+node_modules/
+dist/
+.env
+
+# Optional: Uncomment if PDFs are too large for Git
+# backend/data/raw/*.pdf
