@@ -61,9 +61,9 @@
 | AIRG-03 | Phase 3 | Pending |
 | AIRG-04 | Phase 3 | Pending |
 | AIRG-05 | Phase 3 | Pending |
-| UIUX-01 | Phase 1 | Pending |
+| UIUX-01 | Phase 1 | ✅ Done |
 | UIUX-02 | Phase 5 | Pending |
-| UIUX-03 | Phase 1 | Pending |
+| UIUX-03 | Phase 1 | ✅ Done |
 | COMP-01 | Phase 4 | Pending |
 | COMP-02 | Phase 4 | Pending |
 

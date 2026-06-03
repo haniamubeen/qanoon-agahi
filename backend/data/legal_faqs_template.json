@@ -1,0 +1,35 @@
+[
+  {
+    "id": "FAQ-001",
+    "question_en": "How do I transfer property ownership in Pakistan?",
+    "question_ur": "پاکستان میں جائیداد کی ملکیت کیسے منتقل کی جاتی ہے؟",
+    "answer": "Property transfer requires a registered Sale Deed on stamp paper, biometric verification at the Sub-Registrar office, payment of stamp duty (2-3% of property value), CVT, and property tax clearance. Both buyer and seller must appear with valid CNICs.",
+    "legal_domain": "property",
+    "related_laws": ["Transfer of Property Act 1882", "Registration Act 1908"],
+    "required_documents": ["Title Deed (Fard-e-Malkiat)", "CNIC of Buyer & Seller", "FBR NTN Certificate", "Stamp Duty Receipt", "Property Tax Clearance"],
+    "lawyer_type": "Property / Civil Lawyer",
+    "court": "Civil Court (Sub-Registrar Office)"
+  },
+  {
+    "id": "FAQ-002",
+    "question_en": "How to file for divorce in Pakistan?",
+    "question_ur": "پاکستان میں طلاق کیسے دی جاتی ہے؟",
+    "answer": "Under the Muslim Family Laws Ordinance 1961, a husband may pronounce Talaq with written notice to the Union Council and spouse. A wife may seek Khula through Family Court. Both processes require a 90-day reconciliation period via an Arbitration Council.",
+    "legal_domain": "family",
+    "related_laws": ["Muslim Family Laws Ordinance 1961", "Family Courts Act 1964"],
+    "required_documents": ["Nikah Nama (Marriage Certificate)", "CNIC of Both Spouses", "Union Council Notice (Form-VII)", "Affidavit of Divorce"],
+    "lawyer_type": "Family Lawyer",
+    "court": "Family Court (District Level)"
+  },
+  {
+    "id": "FAQ-003",
+    "question_en": "What are the basic labour rights in Pakistan?",
+    "question_ur": "پاکستان میں مزدوروں کے بنیادی حقوق کیا ہیں؟",
+    "answer": "Pakistani labour law guarantees minimum wages, 8-hour workday, weekly rest day, annual leave, and safe working conditions. Workers are entitled to EOBI and Social Security registration. Violations can be reported to the Labour Inspector.",
+    "legal_domain": "labour",
+    "related_laws": ["Factories Act 1934", "Minimum Wages Ordinance 1961", "Industrial Relations Act 2012"],
+    "required_documents": ["Employment Contract", "CNIC", "Payslip Records", "EOBI Card", "Social Security Card"],
+    "lawyer_type": "Labour / Employment Lawyer",
+    "court": "Labour Court (Provincial)"
+  }
+]
