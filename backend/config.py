@@ -30,8 +30,8 @@ class Config:
     """Persistent ChromaDB vector-store location."""
 
     # ── Embedding model ──────────────────────────────────────────────────────
-    EMBEDDING_MODEL: str = "paraphrase-multilingual-MiniLM-L12-v2"
-    """Smaller multilingual model (~470MB) – fast to download, works well on English/Urdu."""
+    EMBEDDING_MODEL: str = str(_BACKEND_DIR / "models" / "minilm")
+    """Locally stored embedding model – guarantees 100% offline usage with no API calls."""
 
     # ── Chunking parameters ──────────────────────────────────────────────────
     CHUNK_SIZE: int = 500
