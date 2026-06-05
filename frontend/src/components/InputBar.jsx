@@ -1,16 +1,25 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Mic, MicOff, Send, Loader2 } from 'lucide-react';
 
-export default function InputBar() {
+export default function InputBar({ onSend, disabled = false }) {
   const [isRecording, setIsRecording] = useState(false);
   const [inputText, setInputText]     = useState('');
-  const [isSending, setIsSending]     = useState(false);
   const inputRef = useRef(null);
+
+  // Derive isSending from the disabled prop passed by parent
+  const isSending = disabled;
 
   // Auto-focus on mount
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
+
+  // Re-focus when sending completes
+  useEffect(() => {
+    if (!disabled) {
+      inputRef.current?.focus();
+    }
+  }, [disabled]);
 
   const handleMicClick = () => {
     if (isSending) return;
@@ -20,13 +29,11 @@ export default function InputBar() {
 
   const handleSend = () => {
     if (!inputText.trim() || isSending) return;
-    setIsSending(true);
-    // Simulate API call (Phase 4 will wire the real one)
-    setTimeout(() => {
-      setInputText('');
-      setIsSending(false);
-      inputRef.current?.focus();
-    }, 800);
+    const text = inputText.trim();
+    setInputText('');
+    if (onSend) {
+      onSend(text);
+    }
   };
 
   const handleKeyDown = (e) => {
