@@ -13,6 +13,7 @@ env/
 backend/db/
 backend/data/processed/
 backend/models/
+frontend/node_modules/
 
 # Node/React
 node_modules/
